@@ -19,7 +19,7 @@ public class HospitalAppointmentApplication {
 
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
-				.allowedOrigins("http://localhost:4200","http://hosp11240fe.s3-website.ap-south-1.amazonaws.com")
+				.allowedOrigins("https://d253uw7c1s3vhq.cloudfront.net")
 				.allowedMethods("GET", "POST", "PUT", "DELETE")
 				.allowedHeaders("*");
 
